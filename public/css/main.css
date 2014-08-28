@@ -1,0 +1,58 @@
+#checkers-field {
+    width: 600px;
+}
+
+#checkers-field div {
+    width: 75px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 75px;
+    float: left;
+    background-size: 75px auto;
+}
+
+.message {
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+    position: absolute;
+    padding: 270px 130px;
+    font-size: 28px;
+    opacity: 0.8;
+}
+
+.black {
+    background-color: saddlebrown;
+}
+
+.white {
+    background-color: bisque;
+}
+
+.canMoveChain  {
+    background-color: aquamarine;
+}
+
+.canMoveFinal {
+    background-color: darkgreen;
+}
+
+.selected {
+    background-color: gold;
+}
+
+
+.checker-white {
+    background-image: url('./../img/checker-white.png');
+}
+.checker-black {
+    background-image: url('./../img/checker-black.png');
+}
+
+.king-white {
+    background-image: url('./../img/king-white.png');
+}
+.king-black {
+    background-image: url('./../img/king-black.png');
+}
